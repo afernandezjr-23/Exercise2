@@ -7,14 +7,14 @@ body {
 }
 
 .container {
-  width: 96%;
+  width: 95%;
   max-width: auto;
   margin: 2 auto;
 }
 
 .small-container {
-  margin: 2;
-  width: 92%;
+  margin: 2 auto;
+  width: 95%;
   max-width: auto;
 }
 
@@ -27,25 +27,29 @@ h1#site-title {
   text-align: center;
   font-size: 60px;
   letter-spacing: -3px;
-  margin-left: 50px;
+  margin-left: 75px;
+
 }
 
 h1#article-title {
   font-size: 40px;
   text-align: center;
   color: #BFC7CF;
+  margin-left: 30px;
 }
 
 h2#second-article-title {
   font-size: 40px;
   color: #BEC6CF;
   text-align: center;
+  margin-left: 90px;
 }
 
 h3#third-article-title {
   font-size: 40px;
   color: #CEC6CF;
   text-align: center;
+  margin-left: 90px;
 }
 
 p {
@@ -65,6 +69,13 @@ p#second-article {
 
 p#third-article {
   text-align: center;
+}
+
+p#copyright {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  margin-left: 50px;
+  margin-top: 125px;
 }
 
 img {

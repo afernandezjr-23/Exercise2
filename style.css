@@ -1,19 +1,21 @@
 body {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  margin: 5;
+  margin: 35;
+  text-align: center;
+  float: center;
 }
 
 .container {
   width: 96%;
-  max-width: 1020px;
+  max-width: auto;
   margin: 2 auto;
 }
 
 .small-container {
-  margin: 5;
+  margin: 2;
   width: 92%;
-  max-width: 768px;
+  max-width: auto;
 }
 
 h1 {
@@ -36,17 +38,17 @@ h1#article-title {
 h2#second-article-title {
   font-size: 40px;
   color: #BEC6CF;
-  text-align: left;
+  text-align: center;
 }
 
 h3#third-article-title {
   font-size: 40px;
   color: #CEC6CF;
-  text-align: left;
+  text-align: center;
 }
 
 p {
-  text-align: left;
+  text-align: center;
   line-height: 1.25;
   margin-bottom: 1.25em;
   font-size: 20px;
@@ -61,7 +63,7 @@ p#second-article {
 }
 
 p#third-article {
-  text-align: left;
+  text-align: center;
 }
 
 img {

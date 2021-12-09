@@ -75,7 +75,7 @@ p#copyright {
   font-family: 'Inter', sans-serif;
   text-align: center;
   margin-left: 50px;
-  margin-top: 125px;
+  margin-top: 200px;
 }
 
 img {
@@ -91,6 +91,8 @@ figure {
 
 figure img {
   margin-bottom: 12px;
+  height: auto;
+  width: auto;
 }
 
 figure.main-image{
@@ -98,9 +100,11 @@ figure.main-image{
   border-color: #05445E;
   border-size: 10px;
   color: #ffff;
+  max-width: 500px;
+  margin-left: 450px;
 }
 
-@media all and (min-width: 768px){
+@media all and (min-width: 500px){
 figure.section-image{
   margin: -20px -62px 32px 20px;
   max-width: 320px;
